@@ -1,0 +1,103 @@
+/** @format */
+/* you can do real cool stuff with this just by playing with the colors: 
+body {
+  background-image: url("ballroom.jpg");
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-size: cover; Resize the background image to cover the entire container 
+  background-color: rgb(163, 153, 114);
+  background-blend-mode: difference; you can also use 'screen' to have a more blended color, 'difference' makes a deep contrast
+}
+*/
+
+/* Use clip path maker for the clip-path values to get some fancy shapes
+body > #bg {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(2, 221, 248);
+  clip-path: polygon(100% 0, 100% 47%, 59% 100%, 0 100%, 0 0);
+  position: absolute;
+  z-index: -1;
+}
+*/
+
+@keyframes blink {
+  0% {
+    background: violet;
+  }
+  15% {
+    background: #0000ff;
+  }
+  30% {
+    background: rgb(88, 73, 88);
+  }
+  42% {
+    background: rgb(157, 238, 130);
+  }
+  58% {
+    background: rgb(204, 126, 103);
+  }
+  70% {
+    background: rgb(221, 233, 90);
+  }
+  85% {
+    background: rgb(118, 32, 46);
+  }
+  100% {
+    background: rgb(43, 41, 43);
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: violet;
+  }
+  15% {
+    background: #0000ff;
+  }
+  30% {
+    background: rgb(88, 73, 88);
+  }
+  42% {
+    background: rgb(157, 238, 130);
+  }
+  58% {
+    background: rgb(204, 126, 103);
+  }
+  70% {
+    background: rgb(221, 233, 90);
+  }
+  85% {
+    background: rgb(118, 32, 46);
+  }
+  100% {
+    background: rgb(43, 41, 43);
+  }
+}
+
+/* Animations
+div {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  animation: blink 10s infinite;
+  -webkit-animation: blink 10s infinite;
+}
+*/
+
+/* Google Fonts
+ body {
+  font-family: "Piazzolla", serif;
+} */
+
+/* Gradients
+body {
+  height: 100%;
+  background: rgb(70, 184, 167);
+  background: radial-gradient(
+    circle,
+    rgba(70, 184, 167, 1) 0%,
+    rgba(55, 80, 219, 1) 100%
+  );
+}
+*/
